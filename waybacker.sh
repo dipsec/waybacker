@@ -9,7 +9,6 @@ function ctrl_c() {
 
 clear
 
-echo
 mkdir $1
 echo "Fetching... (It may take a long time, ctrl+c when you get tired)"
 wget -q -e robots=off --mirror --domains=staticweb.archive.org,web.archive.org https://web.archive.org/web/0/$1
